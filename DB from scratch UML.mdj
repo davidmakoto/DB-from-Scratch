@@ -1,0 +1,88 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "FCFlowchart",
+			"_id": "AAAAAAF4avccRhXM66U=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Flowchart1",
+			"ownedElements": [
+				{
+					"_type": "FCFlowchartDiagram",
+					"_id": "AAAAAAF4avccRxXNOMA=",
+					"_parent": {
+						"$ref": "AAAAAAF4avccRhXM66U="
+					},
+					"name": "FlowchartDiagram1",
+					"ownedViews": [
+						{
+							"_type": "FCProcessView",
+							"_id": "AAAAAAF4avdsOhXTAw0=",
+							"_parent": {
+								"$ref": "AAAAAAF4avccRxXNOMA="
+							},
+							"model": {
+								"$ref": "AAAAAAF4avdsORXRQCM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF4avdsOhXUHrw=",
+									"_parent": {
+										"$ref": "AAAAAAF4avdsOhXTAw0="
+									},
+									"font": "Arial;13;0",
+									"left": 242,
+									"top": 274,
+									"width": 229,
+									"height": 13,
+									"text": "Generate key",
+									"wordWrap": true
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 232,
+							"top": 264,
+							"width": 249,
+							"height": 257,
+							"nameLabel": {
+								"$ref": "AAAAAAF4avdsOhXUHrw="
+							}
+						}
+					]
+				},
+				{
+					"_type": "FCProcess",
+					"_id": "AAAAAAF4avdsORXRQCM=",
+					"_parent": {
+						"$ref": "AAAAAAF4avccRhXM66U="
+					},
+					"name": "Generate key"
+				}
+			]
+		}
+	]
+}
